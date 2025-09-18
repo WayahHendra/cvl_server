@@ -1,57 +1,61 @@
-# Security Policy – Locify 
+# 📜 Code of Conduct – Locify 
 
-Locify is a proprietary project. The source code is **not open-source** and access is restricted to authorized personnel only.  
+This Code of Conduct outlines the expectations for all contributors, maintainers, and participants in the **Locify** proprietary project. Adhering to these guidelines ensures a professional, safe, and inclusive environment.
 
-Security is taken seriously, and any vulnerabilities must be reported through official channels.
+## Our Commitment
 
-## 📢 Reporting Security Issues
+Locify is committed to fostering a welcoming and respectful community. We expect all participants to uphold these values:
 
-Do **not** report security vulnerabilities through public channels (e.g., GitHub Issues, social media).  
+* **Professionalism:** Conduct yourself with integrity, honesty, and accountability.
+* **Respect:** Treat others with courtesy, regardless of role, experience, or background.
+* **Collaboration:** Work collaboratively, share knowledge, and provide constructive feedback.
+* **Inclusivity:** Embrace diversity, avoid discriminatory language, and create an environment where everyone feels valued.
 
-To report a security issue, contact the **Locify Security Team** directly:
+## Expected Behavior
 
-- **Email:** security@locify.com  
-- **PGP Key (optional):** [Add PGP public key here]  
+Participants are expected to:
 
-You should receive a response within **24 hours**. If not, please follow up to ensure your report was received.
+* Be respectful in discussions, code reviews, and communication.
+* Give constructive feedback that focuses on improvement, not personal criticism.
+* Report bugs, issues, or vulnerabilities responsibly.
+* Respect privacy and confidentiality of proprietary information.
+* Follow the version control, security, and contribution policies of Locify.
 
-### Required Information
+## Unacceptable Behavior
 
-Include as much information as possible to help triage the issue:
+The following behaviors are strictly prohibited:
 
-- Type of vulnerability (e.g., buffer overflow, SQL injection, XSS)  
-- Affected component or module  
-- Steps to reproduce the issue  
-- Proof-of-concept or exploit code (if available)  
-- Potential impact and severity  
+* Harassment, threats, or intimidation of any kind.
+* Discrimination based on race, gender, religion, sexual orientation, age, or disability.
+* Publicly sharing sensitive or proprietary information.
+* Spamming, trolling, or creating disruptive environments.
+* Bypassing established review and approval processes.
 
-## Patch Policy
+## Reporting Violations
 
-- Critical and high severity vulnerabilities will be patched **immediately**.  
-- Medium and low severity issues will be addressed in the next scheduled release.  
-- All security fixes are documented internally.  
+If you experience or witness a violation of this Code of Conduct:
 
-## Best Practices
+1. Report the incident immediately to the **project lead or manager**.
+2. Provide relevant details, including:
 
-Authorized developers should:
+   * Date and time
+   * Participants involved
+   * Description of the incident
+   * Screenshots or logs (if applicable)
+3. Do not attempt to publicly resolve conflicts; escalate through the proper channels.
 
-- Follow secure coding standards  
-- Keep dependencies up-to-date  
-- Avoid committing sensitive credentials in code  
-- Review code for security issues before deployment  
+All reports will be treated confidentially and investigated promptly.
 
-## Responsible Disclosure
+## Enforcement
 
-- Locify follows **Coordinated Vulnerability Disclosure** principles.  
-- Researchers or personnel reporting valid vulnerabilities responsibly may receive acknowledgement internally.  
+Violations may result in:
 
-## Preferred Languages
+* Removal from project access
+* Temporary suspension from contribution privileges
+* Further internal review and disciplinary action as determined by management
 
-All communications should preferably be in **English**.  
+## 🤝 Acknowledgment
 
-## ⚠️ Security Contact
+By contributing to Locify, you agree to adhere to this Code of Conduct. Your cooperation helps maintain a professional, safe, and collaborative environment.
 
-- **Email:** security@locify.com  
-- **Internal Security Portal:** [Provide internal portal URL if applicable]
-
-*This document applies to proprietary code and access is restricted. Do not share repository or security information publicly.*
+*This Code of Conduct is applicable to all contributors, maintainers, and participants in the Locify proprietary project.*
