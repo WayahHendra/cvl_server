@@ -1,4 +1,4 @@
-# 💬 Locify – Nearby Chat App
+# Locify – Nearby Chat App
 
 [![Node.js](https://img.shields.io/badge/Node.js-20-green?logo=node.js&logoColor=white)](https://nodejs.org)
 [![Express](https://img.shields.io/badge/Express-5-black?logo=express&logoColor=white)](https://expressjs.com/)
@@ -10,7 +10,7 @@
 A modern, scalable, and feature-rich chat application built with **ExpressJS** for the backend and **Flutter** for the frontend.  
 The app focuses on **nearby interactions**, allowing users to chat, stream, and build communities with people around them.
 
-## 🌟 Branding & Vision
+## Branding & Vision
 
 ### Why "Locify"?
 
@@ -29,7 +29,7 @@ The app focuses on **nearby interactions**, allowing users to chat, stream, and 
 - 🌍 **Global-friendly** – works well internationally, without sounding overly regional.  
 - 🔮 **Flexible** – perfect for chat, community, or even future map/location-based features.  
 
-## ✅ TODO Roadmap  
+## TODO Roadmap  
 
 - [ ] **Authentication** – Google, Apple, Facebook, Twitter  
 - [ ] **Nearby Chat (WebSocket)** – send, delete, read receipt  
@@ -44,7 +44,7 @@ The app focuses on **nearby interactions**, allowing users to chat, stream, and 
 - [ ] **User Nearby Maps**  
 - [ ] **Nearby Streaming**  
 
-## 📂 Project Structure  
+## Project Structure  
 
 ### Backend (Node.js + Express)  
 ```
@@ -86,7 +86,7 @@ frontend/
 │── Dockerfile
 ```
 
-## 📝 Description  
+## Description  
 
 This project is a **cross-platform chat application** designed to connect users through **nearby communities**.  
 Key features include:  
@@ -100,7 +100,7 @@ Key features include:
 - 📊 Analytics (Google Analytics, GTM)  
 - 📹 Future support for calls & video calls  
 
-## ⚙️ Tech Stack  
+## Tech Stack  
 
 - **Backend**: Node.js (Express.js), Socket.IO/WebSocket, JWT, OAuth2 
 - **Frontend**: Flutter (Dart), Provider/Bloc, WebSocket  
@@ -109,7 +109,7 @@ Key features include:
 - **Containerization**: Docker & Docker Compose  
 - **Deployment**: Nginx, Kubernetes (future-ready)  
 
-## 🖥️ System Requirements  
+## System Requirements  
 
 - Node.js ≥ 20  
 - Flutter ≥ 3.19  
@@ -117,7 +117,7 @@ Key features include:
 - MySQL ≥ 8 / MongoDB ≥ 6  
 - Redis ≥ 7  
 
-## 🔑 Core Technologies  
+## Core Technologies  
 
 - **Node.js / Express.js** – Fast and scalable backend with JavaScript ecosystem  
 - **Flutter** – Cross-platform frontend  
@@ -125,7 +125,7 @@ Key features include:
 - **OAuth 2.0** – Social logins  
 - **Docker** – Containerized deployment  
 
-## 🚀 Installation  
+## Installation  
 
 ### Backend  
 ```bash
@@ -143,7 +143,7 @@ flutter pub get
 flutter run
 ```
 
-## ▶️ Running the Application  
+## Running the Application  
 
 ### Backend (Node.js + Express)
 ```bash
@@ -157,7 +157,7 @@ flutter run -d android  # For Android
 flutter run -d ios      # For iOS
 ```
 
-## 🧪 Testing  
+## Testing  
 
 ### Backend  
 ```bash
@@ -169,7 +169,7 @@ npm test
 flutter test
 ```
 
-## 🌍 Environment Variables  
+## Environment Variables  
 
 | Variable              | Description                               | Default Value      |
 |-----------------------|-------------------------------------------|--------------------|
@@ -184,7 +184,7 @@ flutter test
 | `OAUTH_TWITTER_ID`    | Twitter API Key                           | `-`                |
 | `FRONTEND_URL`        | Flutter Web / Mobile URL                  | `http://localhost` |
 
-## 🐳 Docker Deployment  
+## Docker Deployment  
 
 ### Backend – `backend/Dockerfile`
 ```dockerfile
@@ -277,7 +277,7 @@ volumes:
 
 ```
 
-## 📝 Documentation & Policies
+## Documentation & Policies
 
 For detailed information on project management, security, and conduct, please refer to the following documents:
 
@@ -290,6 +290,6 @@ For detailed information on project management, security, and conduct, please re
 
 Please refer to the **Version Control Policy** for detailed instructions on contributing: [VERSION\_CONTROL.md](./VERSION_CONTROL.md).
 
-## 📜 License
+## License
 
 This project is licensed under the **Apache License 2.0** – see the [LICENSE](LICENSE) file for details.
