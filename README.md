@@ -31,18 +31,116 @@ The app focuses on **nearby interactions**, allowing users to chat, stream, and 
 
 ## TODO Roadmap  
 
-- [ ] **Authentication** – Credentials, Google, Apple, Facebook, Twitter  
-- [ ] **Nearby Chat (WebSocket)** – send, delete, read receipt  
+- [ ] **Authentication** 
+  - Secure login using email & password (credentials)  
+  - Social login with Google, Apple, Facebook, Twitter  
+  - Token-based authentication with refresh token support  
+  - Multi-Factor Authentication (MFA): OTP, email verification, authenticator apps  
+
+- [ ] **Nearby Chat (WebSocket)**  
+  - Real-time messaging powered by WebSocket  
+  - Ability to delete sent messages  
+  - Read receipt indicators for better engagement  
+
 - [ ] **Follow & Recently Viewed Users**  
+  - Follow/unfollow other users to build connections  
+  - Track recently viewed user profiles  
+  - Suggested users based on activity  
+
 - [ ] **File Sender**  
+  - Send and receive files within chat  
+  - Support for documents, images, audio, and video files  
+  - File size limits and security scanning  
+
 - [ ] **Stickers**  
+  - Rich communication with sticker packs  
+  - Custom and downloadable sticker sets  
+  - Integration with chat messages  
+
 - [ ] **Groups & Channels**  
+  - Create and manage private/public groups  
+  - Channels for one-to-many communication  
+  - Role-based permissions for admins and members  
+
 - [ ] **Google Analytics & GTM**  
+  - Track user behavior and app performance  
+  - Integration with Google Tag Manager for advanced event tracking  
+  - Custom analytics dashboards  
+
 - [ ] **System Optimizations**  
+  - Performance tuning for better scalability  
+  - Reduce latency in real-time communication  
+  - Optimize server and database queries  
+
 - [ ] **Streaming Chat – Community (Nearby)**  
+  - Real-time group discussions for nearby communities  
+  - Public chat streams based on user’s location  
+  - Join/leave community streams dynamically  
+
 - [ ] **Voice & Video Call**  
+  - One-to-one and group voice calls  
+  - High-quality video calls with screen sharing  
+  - Call history and notifications  
+
 - [ ] **User Nearby Maps**  
+  - Interactive map showing nearby users  
+  - Adjustable distance filters  
+  - Privacy settings to hide or show location  
+
 - [ ] **Nearby Streaming**  
+  - Live streaming for nearby audiences  
+  - Real-time engagement via comments and reactions  
+  - VIP/membership features for boosted visibility
+     
+## TODO Enhanced Features
+
+- [ ] **User Nearby Maps**  
+  - Interactive map showing nearby users  
+  - Adjustable distance filters (linked with VIP boost)
+  - Integrated with privacy controls & radar system to hide or show location  
+
+- [ ] **VIP – Recommended Nearby Locations**  
+  - Basic nearby recommendations with VIP badge  
+  - Prioritized visibility for VIP members  
+
+- [ ] **VIP – Customization**  
+  - Unlock custom themes  
+  - Customize app launcher    
+
+- [ ] **Verified Badge (Influencer Only)**  
+  - Available only for influencers with minimum followers on supported social media platforms  
+  - Requires membership payment for verification  
+  - Badge grants higher trust and visibility across the app  
+
+- [ ] **Radar (17+ only)**  
+  - Available only for verified users (17+)  
+  - Request by uploading ID Card (KTP) 
+  - Location-based radar to find nearby users  
+
+- [ ] **Status & Feed**  
+  - Post status updates  
+  - Membership-only posting features  
+
+- [ ] **Nearby Distance Limit**  
+  - Default: 5KM range  
+  - VIP: Boost distance up to 10KM  
+
+- [ ] **Privacy Control**  
+  - Option to hide from nearby locations  
+  - Manage visibility in maps & radar  
+
+- [ ] **Room Chat & Call**  
+  - Create and join private/public chat rooms  
+  - Support for voice and video calls within rooms  
+
+- [ ] **Radar Pin**  
+  - Set custom pin on radar  
+  - Pin represents personal or preferred location  
+
+- [ ] **Interaction Log**  
+  - Track user activities & interactions  
+  - Useful for moderation and analytics  
+
 
 ## Project Structure  
 
