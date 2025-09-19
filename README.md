@@ -134,7 +134,7 @@ The app focuses on **nearby interactions**, allowing users to chat, stream, and 
   - Support for voice and video calls within rooms  
 
 - [ ] **Radar Pin**  
-  - Set custom pin on radar  
+  - Set custom pin on radar, only VIP user  
   - Pin represents personal or preferred location  
 
 - [ ] **Interaction Log**  
