@@ -132,8 +132,6 @@ Key features include:
 cd backend
 cp .env.example .env
 npm install   # Or pnpm install / yarn install
-npm run dev   # For development
-npm run build && npm start   # For production
 ```
 
 ### Frontend  
@@ -147,7 +145,8 @@ flutter run
 
 ### Backend (Node.js + Express)
 ```bash
-npm run dev
+npm run dev   # For development
+npm run build && npm start   # For production
 ```
 
 ### Frontend (Flutter)  
