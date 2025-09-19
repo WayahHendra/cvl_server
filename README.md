@@ -147,7 +147,7 @@ Key features include:
    npm run prisma:push
    ```
 
-### Frontend  
+4. Setup frontend  
 ```bash
 cd frontend
 flutter pub get
