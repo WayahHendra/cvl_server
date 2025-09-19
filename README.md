@@ -31,7 +31,7 @@ The app focuses on **nearby interactions**, allowing users to chat, stream, and 
 
 ## TODO Roadmap  
 
-- [✔️] **Authentication** – Google, Apple, Facebook, Twitter  
+- [ ] **Authentication** – Google, Apple, Facebook, Twitter  
 - [ ] **Nearby Chat (WebSocket)** – send, delete, read receipt  
 - [ ] **Follow & Recently Viewed Users**  
 - [ ] **File Sender**  
@@ -127,12 +127,25 @@ Key features include:
 
 ## Installation  
 
-### Backend  
-```bash
-cd backend
-cp .env.example .env
-npm install   # Or pnpm install / yarn install
-```
+1. Clone repository:
+   ```bash
+   git clone https://github.com/WayahHendra/locify-nearby-chat-app.git
+   cd locify-nearby-chat-app
+   ```
+
+2. Setup backend  
+   ```bash
+   cd backend
+   cp .env.example .env
+   npm install   # Or pnpm install / yarn install
+   ```
+   Edit `.env` file with your configuration
+
+3. Setup prisma
+   ```bash
+   npm run prisma:generate
+   npm run prisma:push
+   ```
 
 ### Frontend  
 ```bash
