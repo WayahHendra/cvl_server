@@ -131,9 +131,9 @@ Key features include:
 ```bash
 cd backend
 cp .env.example .env
-npm install   # atau pnpm install / yarn install
-npm run dev   # untuk development
-npm run build && npm start   # untuk production
+npm install   # Or pnpm install / yarn install
+npm run dev   # For development
+npm run build && npm start   # For production
 ```
 
 ### Frontend  
