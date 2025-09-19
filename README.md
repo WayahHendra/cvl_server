@@ -31,7 +31,7 @@ The app focuses on **nearby interactions**, allowing users to chat, stream, and 
 
 ## TODO Roadmap  
 
-- [ ] **Authentication** – Google, Apple, Facebook, Twitter  
+- [✔️] **Authentication** – Google, Apple, Facebook, Twitter  
 - [ ] **Nearby Chat (WebSocket)** – send, delete, read receipt  
 - [ ] **Follow & Recently Viewed Users**  
 - [ ] **File Sender**  
