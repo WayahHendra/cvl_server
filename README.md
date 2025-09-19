@@ -202,38 +202,38 @@ http://localhost:8000/api-docs
 
 ## Environment Variables  
 
-| Variable                   | Description                                | Example Value                            |
-|----------------------------|--------------------------------------------|------------------------------------------|
-| `PORT`                     | Backend server port                        | `8000`                                   |
-| `APP_NAME`                 | Your app name                              | `-`                                      |
-| `APP_VERSION`              | Version Control                            | `1.0.0`                                  |
-| `APP_ORIGIN`               | Frontend origin URL                        | `http://localhost:3000`                  |
-| `DOMAIN`                   | Backend public base domain                 | `http://localhost:5000`                  |
-| `BASE_PATH`                | API base path                              | `api/v1`                                 |
-| `API_KEY`                  | Secure API key                             | `-`                                      |
-| `NODE_ENV`                 | Environment                                | `development/production`                 |
-| `DATABASE_URL`             | MongoDB connection URL                     | `mongodb+srv://`                         |
-| `REDIS_URL`                | Redis connection string                    | `redis://...`                            |
-| `JWT_SECRET`               | JWT secret                                 | `-`                                      |
-| `JWT_EXPIRES_IN`           | Token expiration                           | `15m`                                    |
-| `JWT_REFRESH_SECRET`       | Refresh token secret                       | `-`                                      |
-| `OAUTH_GOOGLE_ID`          | Google OAuth client ID                     | `-`                                      |
-| `OAUTH_GOOGLE_SECRET`      | Google OAuth secret                        | `-`                                      |
-| `OAUTH_APPLE_ID`           | Apple OAuth client ID                      | `-`                                      |
-| `OAUTH_FACEBOOK_ID`        | Facebook App ID                            | `-`                                      |
-| `OAUTH_TWITTER_ID`         | Twitter API Key                            | `-`                                      |
-| `JWT_REFRESH_EXPIRES_IN`   | Refresh token expiration                   | `30d`                                    |
-| `RESEND_API_KEY`           | Resend API Key                             | `-`                                      |
-| `RESEND_FROM_NAME`         | Resend sender name                         | `-`                                      |
-| `RESEND_FROM_EMAIL`        | Resend sender email                        | `onboarding@resend.dev`                  |
-| `EMAIL_CUSTOMER_SERVICE`   | Email customer service email               | `customer-service@example.com`           |
-| `EMAIL_CUSTOMER_SUPPORT`   | Email customer support email               | `customer-support@example.com`           |
-| `EMAIL_CUSTOMER_REPORT`    | Email customer report email                | `customer-report@example.com`            |
-| `RATE_LIMIT_WINDOW_MS`     | Rate limit window (ms)                     | `900000`                                 |
-| `RATE_LIMIT_MAX_PROD`      | Max requests in prod environment           | `100`                                    |
-| `RATE_LIMIT_MAX_STAGING`   | Max requests in staging environment        | `300`                                    |
-| `RATE_LIMIT_MAX_DEV`       | Max requests in development environment    | `10`                                     |
-| `RATE_LIMIT_WHITELIST_IPS` | IPs allowed to bypass rate limiting        | `127.0.0.1,10.0.0.1`                     |
+| Variable                   | Description                             | Example Value                            |
+|----------------------------|-----------------------------------------|------------------------------------------|
+| `PORT`                     | Backend server port                     | `8000`                                   |
+| `APP_NAME`                 | Your app name                           | `-`                                      |
+| `APP_VERSION`              | Version Control                         | `1.0.0`                                  |
+| `APP_ORIGIN`               | Frontend origin URL                     | `http://localhost:3000`                  |
+| `DOMAIN`                   | Backend public base domain              | `http://localhost:5000`                  |
+| `BASE_PATH`                | API base path                           | `api/v1`                                 |
+| `API_KEY`                  | Secure API key                          | `-`                                      |
+| `NODE_ENV`                 | Environment                             | `development/production`                 |
+| `DATABASE_URL`             | MongoDB connection URL                  | `mongodb+srv://`                         |
+| `REDIS_URL`                | Redis connection string                 | `redis://...`                            |
+| `JWT_SECRET`               | JWT secret                              | `-`                                      |
+| `JWT_EXPIRES_IN`           | Token expiration                        | `15m`                                    |
+| `JWT_REFRESH_SECRET`       | Refresh token secret                    | `-`                                      |
+| `OAUTH_GOOGLE_ID`          | Google OAuth client ID                  | `-`                                      |
+| `OAUTH_GOOGLE_SECRET`      | Google OAuth secret                     | `-`                                      |
+| `OAUTH_APPLE_ID`           | Apple OAuth client ID                   | `-`                                      |
+| `OAUTH_FACEBOOK_ID`        | Facebook App ID                         | `-`                                      |
+| `OAUTH_TWITTER_ID`         | Twitter API Key                         | `-`                                      |
+| `JWT_REFRESH_EXPIRES_IN`   | Refresh token expiration                | `30d`                                    |
+| `RESEND_API_KEY`           | Resend API Key                          | `-`                                      |
+| `RESEND_FROM_NAME`         | Resend sender name                      | `-`                                      |
+| `RESEND_FROM_EMAIL`        | Resend sender email                     | `onboarding@resend.dev`                  |
+| `EMAIL_CUSTOMER_SERVICE`   | Email customer service email            | `customer-service@example.com`           |
+| `EMAIL_CUSTOMER_SUPPORT`   | Email customer support email            | `customer-support@example.com`           |
+| `EMAIL_CUSTOMER_REPORT`    | Email customer report email             | `customer-report@example.com`            |
+| `RATE_LIMIT_WINDOW_MS`     | Rate limit window (ms)                  | `900000`                                 |
+| `RATE_LIMIT_MAX_PROD`      | Max requests in prod environment        | `100`                                    |
+| `RATE_LIMIT_MAX_STAGING`   | Max requests in staging environment     | `300`                                    |
+| `RATE_LIMIT_MAX_DEV`       | Max requests in development environment | `10`                                     |
+| `RATE_LIMIT_WHITELIST_IPS` | IPs allowed to bypass rate limiting     | `127.0.0.1,10.0.0.1`                     |
 
 ## Docker Deployment  
 
