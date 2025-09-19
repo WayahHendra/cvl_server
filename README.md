@@ -148,11 +148,11 @@ Key features include:
    ```
 
 4. Setup frontend  
-```bash
-cd frontend
-flutter pub get
-flutter run
-```
+   ```bash
+   cd frontend
+   flutter pub get
+   flutter run
+   ```
 
 ## Running the Application  
 
