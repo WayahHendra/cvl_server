@@ -1,4 +1,4 @@
-# Changelog – Locify Chat App
+# Changelog – Locify Chat Apps
 
 All notable changes to this project will be documented in this file.
 
