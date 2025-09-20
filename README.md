@@ -32,10 +32,10 @@ The app focuses on **nearby interactions**, allowing users to chat, stream, and 
 ## TODO Roadmap  
 
 - [ ] **Authentication** 
-  - Secure login using email & password (credentials)  
+  - Secure login using email & password (credentials) ✅
   - Social login with Google, Apple, Facebook, Twitter  
-  - Token-based authentication with refresh token support  
-  - Multi-Factor Authentication (MFA): OTP, email verification, authenticator apps  
+  - Token-based authentication with refresh token support ✅
+  - Multi-Factor Authentication (MFA): OTP, email verification, authenticator apps ✅
 
 - [ ] **Nearby Chat (WebSocket)**  
   - Real-time messaging powered by WebSocket  
